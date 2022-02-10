@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbelly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- ====================================
+header part start
+===================================================-->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <img src="images/logo.svg" alt="logo.svg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <div class="hc"></div> Home
+            </a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="#">Type 1</a></li>
+                <li><a href="#">Type 1</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <div class="hc"></div>Pages
+            </a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="#">Blog Style 1</a></li>
+                <li><a href="#">Blog Style 2</a></li>
+                <li><a href="#">Blog Style 3</a></li>
+                <li><a href="#">Blog Style 4</a></li>
+                <li><a href="#">Blog Style 5</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="#">
+              <div class="hc"></div>Menu
+            </a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="#">Menu Style 1</a></li>
+                <li><a href="#">Menu Style 2</a></li>
+                <li><a href="#">Menu Style 3</a></li>
+                <li><a href="#">Menu Style 4</a></li>
+                <li><a href="#">Menu Style 5</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link shop" href="#">
+              <div class="hc"></div>Shop
+            </a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="#">Product List</a></li>
+                <li><a href="#">Best Buy</a></li>
+                <li><a href="#">Offer Price</a></li>
+                <li><a href="#">Checkout</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <div class="hc"></div>contact
+            </a>
+          </li>
+
+
+        </ul>
+        <div class="bag">
+          <i class="fas fa-shopping-bag"></i>
+          <p class="five">5</p>
+        </div>
+        <div class="dot"><i class="fas fa-ellipsis-v dots"></i> </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ====================================
+header part end
+===================================================-->
+  <!-- ====================================================
+BAG SLIDER START
+=======================================================-->
+  <section id="bag-slider">
+    <div class="bag-main">
+      <i class="fas fa-times cross"></i>
+      <h5>Your order.<i class="far fa-comments"></i></h5>
+      <div class="bag-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="img"> <img src="images/4_002.jpg" alt="4_002.jpg"></div>
+          </div>
+          <div class="col-lg-5">
+            <h4>saumon gravlax</h4>
+          </div>
+          <div class="col-lg-4">
+            <h5><span>$</span> 9</h5>
+          </div>
+        </div>
+      </div>
+      <div class="bag-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="img"> <img src="images/1_002.jpg" alt="4_002.jpg"></div>
+          </div>
+          <div class="col-lg-5">
+            <h4>Chevrefrit au miel</h4>
+          </div>
+          <div class="col-lg-4">
+            <h5><span>$</span> 14</h5>
+          </div>
+        </div>
+      </div>
+      <div class="bag-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="img"> <img src="images/2_002.jpg" alt="4_002.jpg"></div>
+          </div>
+          <div class="col-lg-5">
+            <h4>Croustillant de poisson</h4>
+          </div>
+          <div class="col-lg-4">
+            <h5><span>$</span> 4</h5>
+          </div>
+        </div>
+      </div>
+      <div class="bag-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="img"> <img src="images/3.jpg" alt="4_002.jpg"></div>
+          </div>
+          <div class="col-lg-5">
+            <h4>Stracciatella</h4>
+          </div>
+          <div class="col-lg-4">
+            <h5><span>$</span> 11</h5>
+          </div>
+        </div>
+      </div>
+      <div class="bag-item">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="img"> <img src="images/5_002.jpg" alt="5_002.jpg"></div>
+          </div>
+          <div class="col-lg-5">
+            <h4>Carpaccio de daurade</h4>
+          </div>
+          <div class="col-lg-4">
+            <h5><span>$</span> 19</h5>
+          </div>
+        </div>
+      </div>
+      <a class="view" href="#">view order</a>
+      <a class="check" href="#">checkout</a>
+    </div>
+  </section>
+  <!-- ====================================================
+BAG SLIDER END
+=======================================================-->
+
+
+  <!-- ====================================================
+DOT SLIDER START
+=======================================================-->
+<section id="dot">
+  <div class="dot-main">
+    <i class="fas fa-times cro"></i>
+    <h6 class="con">Contact <i class="fas fa-phone-alt"></i></h6>
+      <p>Address: <span>Montréal, 1510 Rue Sauvé</span></p> 
+      <p>Working hours:  <span>  09:00 - 23:00</span></p> 
+      <p>Phone: <span>+02 (044) 756-X6-52</span></p> 
+      <p>Email: <span>starbelly@mail.com</span></p> 
+      <h6>Instagram <i class="fab fa-instagram"></i></h6>
+      <div class="dot-img">
+        <img src="images/1.jpg" alt="1.jpg">
+        <img src="images/2.jpg" alt="1.jpg">
+        <img src="images/3_002.jpg" alt="1.jpg">
+        <img src="images/4.jpg" alt="1.jpg">
+        <img src="images/5.jpg" alt="1.jpg">
+        <img src="images/6.jpg" alt="1.jpg">
+      </div>
+      <h6 class="late">Latest publications <i class="far fa-chart-bar"></i></h6>
+<div class="late-item">
+  <img src="images/1_003.jpg" alt="1_003.jpg">
+ <div class="late-text">
+  <h6>Simple Homemade Tomato Soup</h6>
+  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+ </div>
+</div><div class="late-item">
+  <img src="images/2_003.jpg" alt="1_003.jpg">
+ <div class="late-text">
+  <h6>Thai Coconut Soup with Tofu and Rice</h6>
+  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+ </div>
+</div><div class="late-item">
+  <img src="images/3_003.jpg" alt="1_003.jpg">
+ <div class="late-text">
+  <h6>21 Things You Should Absolutely Be Buying at ALDI</h6>
+  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+ </div>
+</div>
+<div class="cio">
+  <i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-vimeo-v"></i>
+
+</div>
+  </div>
+</section>
+
+  <!-- ====================================================
+DOT SLIDER END
+=======================================================-->
+
+  <!-- ---------------------------------------------------
+BANNER PART START
+======================================================-->
+  <section id="banner">
+    <div class="rote"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-7">
+          <h6>Hi, new friend!</h6>
+          <h1>We do not cook,
+            we create your
+            emotions!</h1>
+          <p>Consectetur numquam poro nemo veniam
+            eligendi rem adipisci quo modi.</p>
+
+          <a class="menu" href="#"> <img class="mei" src="images/menu.svg" alt="menu.svg"> our menu</a>
+          <a class="us" href="#">
+            <img class="mar" src="images/arrow.svg" alt="arrows.svg"> about us</a>
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <div class="b-main">
+            <div class="banner-img lg">
+              <img src="images/girl.png" alt="girl">
+            </div>
+            <div class="anim">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+              <div class="c-one"></div>
+              <div class="c-two"></div>
+              <img class="svg1" src="images/3.svg" alt="svg">
+              <img class="svg2" src="images/2_002.svg" alt="svg">
+              <img class="svg3" src="images/1_002.svg" alt="svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ---------------------------------------------------
+BANNER PART END
+======================================================-->
+
+  <!-- =================================================
+EXPERT PART START
+===================================================-->
+  <section id="expert">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="ex-left">
+            <img src="images/interior.jpg" alt="interior.jpg">
+        </div>
+        <div class=" anima">
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="c-one"></div>
+            <div class="c-two"></div>
+          </div>
+          <div class="ex-counter">
+            <h2 class="counter">17</h2>
+            <h4>Years Experiense</h4>
+          </div>
+        </div>
+        <div class="col-lg-6">
+      <div class="x-main">
+        <h3>We are doing more than
+          you expect</h3>
+        <div class="ex-item">
+          <div class="row">
+            <div class="col-lg-2 col-sm-2 col-md-2">
+              <h2>01</h2>
+            </div>
+            <div class="col-lg-10 col-sm-10 col-md-10">
+             <div class="ex-text">
+              <h4>We are located in the city center</h4>
+              <p>Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.</p>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="ex-item">
+          <div class="row">
+            <div class="col-lg-2 col-sm-2 col-md-2">
+              <h2>02</h2>
+            </div>
+            <div class="col-lg-10 col-sm-10 col-md-10">
+              <h4>Fresh, organic ingredients</h4>
+              <p>Consectetur numquam porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo
+                modi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ex-item">
+          <div class="row">
+            <div class="col-lg-2 col-sm-2 col-md-2">
+              <h2>03</h2>
+            </div>
+            <div class="col-lg-10 col-sm-10 col-md-10">
+              <h4>
+                Own fast delivery</h4>
+              <p>Necessitatibus praesentium eligendi rem temporibus adipisci quo modi. Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =================================================
+  EXPERT PART END
+  ===================================================-->
+
+  <!-- =================================================
+    LIKE PART START
+    ===================================================-->
+  <section id="like">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h3>What do you like today?</h3>
+          <p>Consectetur numquam poro nemo veniam
+            eligendi rem adipisci quo modi.</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <a href="#"> <img class="arr" src="images/arrow.svg" alt="arrow.svg"> Go Shopping Now</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="like-item">
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3">
+                <img src="images/1_002.png" alt="1_002.png">
+              </div>
+              <div class="col-lg-9 col-sm-9 col-md-9">
+               <div class="l-text">
+                <h4>Starters</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+               </div>
+                <div class="popi"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <div class="like-item">
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3">
+                <img src="images/2_002.png" alt="1_002.png">
+              </div>
+              <div class="col-lg-9 col-sm-9 col-md-9">
+                <div class="l-text">
+                  <h4>Main Dishes</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="popi"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <div class="like-item">
+            <div class="row">
+              <div class="col-lg-3 col-sm-3 col-md-3">
+                <img src="images/3.png" alt="1_002.png">
+              </div>
+              <div class="col-lg-9 col-sm-9 col-md-9">
+               <div class="l-text">
+                <h4>Drinks</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+               </div>
+                <div class="popi"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <div class="like-item">
+            <div class="row">
+              <div class="col-lg-3 col-sm-3">
+                <img src="images/4_002.png" alt="1_002.png">
+              </div>
+              <div class="col-lg-9 col-sm-9">
+               <div class="l-text">
+                <h4>Desserts</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+               </div>
+                <div class="popi"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =================================================
+LIKE PART END
+===================================================-->
+
+  <!-- =================================================
+DISH PART START
+===================================================-->
+  <div class="big-circle"></div>
+  <section id="dish">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <h3>Most popular dishes</h3>
+          <p class="p-head">Consectetur numquam poro nemo veniam
+            eligendi rem adipisci quo modi.</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <a href="#"> <img class="awer" src="images/menu.svg" alt="arrow.svg"> Full Menu</a>
+        </div>
+      </div>
+      <div class="dish-main">
+        <div class="dish-item">
+          <div class="img"> <img src="images/3.jpg" alt="3"></div>
+          <div class="text">
+            <h4>Carpaccio de daurade</h4>
+            <p><span>$</span> 14</p>
+          </div>
+          <p class="teo">tomatoes,nori,feta cheese,
+            mushrooms,rice noodles,corn,
+            shrimp.</p>
+
+        </div>
+        <div class="dish-item">
+          <div class="img"> <img src="images/1_002.jpg" alt="3"></div>
+          <div class="text">
+            <h4>Chevrefrit au miel</h4>
+            <p><span>$</span> 14</p>
+          </div>
+          <p class="teo">tomatoes,nori,feta cheese,
+            mushrooms,rice noodles,corn,
+            shrimp.</p>
+
+        </div>
+        <div class="dish-item">
+          <div class="img"> <img src="images/2_002.jpg" alt="3">
+            <h6 class="veg">Vegan</h6>
+          </div>
+          <div class="text">
+            <h4>Saumon Gravlax</h4>
+            <p><span>$</span> 9</p>
+          </div>
+          <p class="teo">tomatoes,nori,feta cheese,
+            mushrooms,rice noodles,corn,
+            shrimp.</p>
+
+
+        </div>
+        <div class="dish-item">
+          <div class="img"> <img src="images/9.jpg" alt="3">
+            <h6 class="hot">hot</h6>
+          </div>
+          <div class="text">
+            <h4>Croustillant de po</h4>
+            <p><span>$</span> 10</p>
+          </div>
+          <p class="teo">tomatoes,nori,feta cheese,
+            mushrooms,rice noodles,corn,
+            shrimp.</p>
+
+
+        </div>
+        <div class="dish-item">
+          <div class="img"> <img src="images/5_002.jpg" alt="3">
+            <h6 class="veg">Vegan</h6>
+          </div>
+          <div class="text">
+            <h4>Carpaccio de daurade</h4>
+            <p><span>$</span> 6</p>
+          </div>
+          <p class="teo">tomatoes,nori,feta cheese,
+            mushrooms,rice noodles,corn,
+            shrimp.</p>
+
+
+        </div>
+        <div class="dish-item">
+          <div class="img"> <img src="images/4_002.jpg" alt="3">
+            <h6 class="hot">Cold</h6>
+          </div>
+          <div class="text">
+            <h4>Stracciatella</h4>
+            <p><span>$</span> 11</p>
+          </div>
+          <p class="teo">tomatoes,nori,feta cheese,
+            mushrooms,rice noodles,corn,
+            shrimp.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =================================================
+DISH PART END
+===================================================-->
+  <!-- =================================================
+COOK PART START
+===================================================-->
+  <section id="cook">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-8">
+          <h3>They will cook for you</h3>
+          <p class="p-head">Consectetur numquam poro nemo veniam
+            eligendi rem adipisci quo modi.</p>
+        </div>
+        <div class="col-lg-6 col-sm-4">
+          <a href="#"> <img class="awer" src="images/arrow.svg" alt="arrow.svg"> More About Us</a>
+        </div>
+      </div>
+      <div class="cook-main">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="cook-cmain">
+              <div class="cook-item">
+                <div class="egg"></div>
+                <img src="images/1.png" alt="1">
+              </div>
+              <div class="c-text">
+                <h4>Paul Trueman</h4>
+                <h6>Chef</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="cook-cmain">
+              <div class="cook-item">
+                <div class="egg"></div>
+                <img src="images/2.png" alt="1">
+              </div>
+              <div class="c-text">
+                <h4>Emma Newman</h4>
+                <h6>Assistant chef</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="cook-cmain">
+              <div class="cook-item">
+                <div class="egg"></div>
+                <img src="images/3_002.png" alt="1">
+              </div>
+              <div class="c-text">
+                <h4>Oscar Oldman</h4>
+                <h6>Chef</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="cook-cmain">
+              <div class="cook-item">
+                <div class="egg"></div>
+                <img src="images/4.png" alt="1">
+              </div>
+              <div class="c-text">
+                <h4>Ed Freeman</h4>
+                <h6>Assistant chef</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =================================================
+COOK PART END
+===================================================-->
+
+  <!-- =================================================
+FOOTER PART START
+===================================================-->
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-6">
+        <div class="footer-left">
+          <h2>
+            Download our mobile app.</h2>
+            <p>Consectetur numquam poro nemo veniam
+              eligendi rem adipisci quo modi.</p>
+              <img src="images/1.svg" alt="1.svg">
+              <img src="images/2.svg" alt="2">
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6">
+        <img class="phn" src="images/phones.png" alt="phones.png">
+        <div class="cc1"></div>
+        <div class="sone"></div>
+        <div class="stwo"></div>
+        <div class="sthree"></div>
+        <img class="svg5" src="images/3.svg" alt="svg">
+        <img class="svg7" src="images/2_002.svg" alt="svg">
+        <img class="svg6" src="images/1_002.svg" alt="svg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<i class="fas fa-angle-up top-up"></i>
+
+<section id="copy">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-sm-4">
+      <img src="images/logo.svg" alt="logo.svg">
+    </div>
+    <div class="col-lg-6 col-sm-8">
+     <div class="cp">
+      <p>© late 2021 Starbelly. All Rights Reserved.</p>
+     </div>
+    </div>
+    </div>
+  </div>
+</section>
+  <!-- =================================================
+FOOTER PART END
+===================================================-->
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
